@@ -46,5 +46,4 @@ extractMin cls = snd bestClass:extractMin (map (delPrereq bestClass) $ delete (N
 
 -- Extract the [String] to [Clazz] then pass the [Clazz] to extractMin to get the ordered classes
 orderClasses :: [String] -> [String]
-orderClasses str = extractMin $ map extractClass str 
-
+orderClasses str = extractMin $ map extractClass str
