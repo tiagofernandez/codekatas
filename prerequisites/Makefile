@@ -1,14 +1,9 @@
-all: tesths
+all: test
 
-cleanhs:
-	rm -rf tesths
+clean:
+	@rm -rf build
 
-tesths: cleanhs
-	@echo "launching Haskell implementation tests" 
-	mkdir tesths
-	cp src/*.hs tesths
-	cp test/*.hs tesths
-	cd tesths && ghc --make -O2 PrerequisitesTest.hs 
-	tesths/PrerequisitesTest
-   
-  
+test: clean
+	@mkdir build && cp **/*.hs build
+	@cd build && find *Test.hs -exec ghc --make -O2 $1 '{}' \;
+	@find **/*Test -exec $1 '{}' \;
