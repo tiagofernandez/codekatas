@@ -11,6 +11,6 @@ input2 = ["CSE121: CSE110", "CSE110:", "MATH122:"]
 output2 = ["CSE110", "CSE121", "MATH122"]
 test2 = TestCase $ assertEqual errorMsg output2 (orderClasses input2)
 
-tests = TestList [TestLabel "test1" test1, TestLabel "test2" test2, TestLabel "test3" test3]
+tests = TestList [TestLabel "test1" test1, TestLabel "test2" test2]
 
 main = runTestTT tests
