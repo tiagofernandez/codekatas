@@ -3,6 +3,8 @@ load("src/SquareDigits.js")
 
 var squareDigitsTests = {
   
+  suiteName: "SquareDigitsTests",
+  
   setUp: function() {
     smallestResult = new SquareDigits().smallestResult
   },
