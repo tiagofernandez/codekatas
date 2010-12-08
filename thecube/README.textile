@@ -1,0 +1,24 @@
+h1. The Cube
+
+You just watched the movie ’Cube’ before going to bed. Bad idea – you find yourself
+in a nightmare where you are also put in a huge cube which has 6 doors. But fortunately
+you remember an idea from the film about how each of the doors has a numeric code. If
+decoded correctly it tells you if there is a deadly trap behind it or not.
+
+You read the first code 28733 13412 96476 – and remember that one had to add the digits
+of each group together (e.g. 2+8+7+3+3 = 23) and test if at least one of the 3 check sums
+is a prime number. If it is, there is a deadly trap!
+
+Interface To solve this exercise, implement the following interface after you checked out
+the project template from below.
+
+/**
+ * Test if a cube door is trapped
+ *
+ * @param code1 first code
+ * @param code2 second code
+ * @param code3 third code
+ *
+ * @return true if any of the codes' checksum is a prime number
+ */
+boolean containsPrimeNumber (String code1, String code2, String code3);
