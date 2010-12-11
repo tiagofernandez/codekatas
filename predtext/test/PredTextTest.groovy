@@ -1,22 +1,30 @@
-class PredTextTest extends GroovyTestCase {
+import spock.lang.*
+
+class PredTextTest extends Specification {
   
   def predText =  new PredText()
   
-  void testGetDigits() {
-    assert predText.getDigits('hello') == '43556'
-    assert predText.getDigits('sale') == '7253'
+  def "get digits"() {
+    expect:
+    predText.getDigits(word) == digits
+    
+    where:
+    word << ['hello', 'sale']
+    digits << ['43556', '7253']
   }
   
-  void testGetSuggestions() {
-    def suggestions = predText.getSuggestions('43556')
-    assert suggestions.contains('hello')
-    assert suggestions.contains('geklo')
-    assert suggestions.contains('gekko')
+  def "get suggestions"() {
+    when:
+    def suggestions = predText.getSuggestions(digits)
     
-    suggestions = predText.getSuggestions('7253')
-    assert suggestions.contains('sale')
-    assert suggestions.contains('rake')
-    assert suggestions.contains('pale')
-    assert suggestions.contains('ralf')
+    then:
+    words.each { suggestions.contains(it) }
+    
+    where:
+    digits << ['43556', '7253']
+    words << [
+      ['hello', 'geklo', 'gekko'],
+      ['sale', 'rake', 'pale', 'ralf']
+    ]
   }
 }
