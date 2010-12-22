@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F11EDDF312C294350094BC63 /* Main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11EDDF212C294350094BC63 /* Main.m */; };
+		F11EDDF312C294350094BC63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11EDDF212C294350094BC63 /* main.m */; };
 		F11EDE0012C294740094BC63 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11EDDD212C292E00094BC63 /* SenTestingKit.framework */; };
 		F11EDE0312C2948C0094BC63 /* DummyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F11EDE0212C2948C0094BC63 /* DummyTest.m */; };
 /* End PBXBuildFile section */
@@ -16,7 +16,7 @@
 		F11EDDD212C292E00094BC63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
 		F11EDDEB12C2939B0094BC63 /* Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11EDDEE12C2939B0094BC63 /* Main-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Main-Info.plist"; sourceTree = "<group>"; };
-		F11EDDF212C294350094BC63 /* Main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = Main.m; path = ../happynumber/Classes/Main.m; sourceTree = SOURCE_ROOT; };
+		F11EDDF212C294350094BC63 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../happynumber/Classes/main.m; sourceTree = SOURCE_ROOT; };
 		F11EDDFB12C2946B0094BC63 /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F11EDDFC12C2946B0094BC63 /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
 		F11EDE0112C2948C0094BC63 /* DummyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DummyTest.h; path = ../happynumber/Tests/DummyTest.h; sourceTree = SOURCE_ROOT; };
@@ -57,7 +57,7 @@
 		F11EDDAC12C2926D0094BC63 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F11EDDF212C294350094BC63 /* Main.m */,
+				F11EDDF212C294350094BC63 /* main.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -190,7 +190,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11EDDF312C294350094BC63 /* Main.m in Sources */,
+				F11EDDF312C294350094BC63 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
