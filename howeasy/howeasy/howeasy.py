@@ -30,7 +30,7 @@ class HowEasy:
     token_length = len(token)
     for i in xrange(0, token_length):
       if i == token_length and token[i] == token[-1]:
-        return True  # nothing lef to validate
+        return True  # nothing left to validate
       elif not token[i].isalpha():
         return False
     return True
