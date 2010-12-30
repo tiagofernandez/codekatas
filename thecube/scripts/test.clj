@@ -1,8 +1,0 @@
-(println "running script")
-(println (+ 43 9))
-(println *ns*)
-(println *file*)
-(println cake/*pwd*)
-(println cake/*env*)
-(Thread/sleep 4000)
-(println "DONE")
