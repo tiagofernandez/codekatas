@@ -21,4 +21,4 @@ the project template from below.
  *
  * @return true if any of the codes' checksum is a prime number
  */
-boolean containsPrimeNumber (String code1, String code2, String code3);
+boolean containsPrimeNumber(String code1, String code2, String code3);
