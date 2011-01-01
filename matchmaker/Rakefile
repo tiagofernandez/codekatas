@@ -1,4 +1,4 @@
-require 'rspec/core/rake_task'
+require "rspec/core/rake_task"
 require "rcov/rcovtask"
  
 task :default => "test"
@@ -20,7 +20,6 @@ namespace :test do
     t.verbose = false
   end
   
-  # rcov broken with rspec2 (http://goo.gl/kfzuh)
   RSpec::Core::RakeTask.new(:coverage) do |t|
     t.rcov = true
     t.rcov_opts =  ['--exclude', 'spec']
