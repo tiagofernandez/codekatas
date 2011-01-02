@@ -1,0 +1,23 @@
+h1. Requirements
+
+- Requires CPAN Test::Unit module
+
+
+- If you're using MacOS, do the following:
+
+1) Make sure you have the Apple Developer Tools installed.
+2) Configure CPAN.
+	$ sudo perl -MCPAN -e shell
+	perl> o conf init
+
+3) Upgrade CPAN
+	$ sudo perl -MCPAN -e 'install Bundle::CPAN'
+
+Don’t forget the sudo, or it’ll fail with permissions errors, probably when doing something relatively unimportant like installing man files.
+
+4) Install module. 
+	$ sudo perl -MCPAN -e 'install Test::Unit'
+
+	or
+
+This will install the module and its dependencies. 
