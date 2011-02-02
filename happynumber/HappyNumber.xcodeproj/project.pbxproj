@@ -3,164 +3,209 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 42;
+	objectVersion = 45;
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F11EDDF312C294350094BC63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F11EDDF212C294350094BC63 /* main.m */; };
-		F11EDE0012C294740094BC63 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F11EDDD212C292E00094BC63 /* SenTestingKit.framework */; };
-		F11EDE0312C2948C0094BC63 /* DummyTest.m in Sources */ = {isa = PBXBuildFile; fileRef = F11EDE0212C2948C0094BC63 /* DummyTest.m */; };
+		1D3623260D0F684500981E51 /* HappyNumberAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1D3623250D0F684500981E51 /* HappyNumberAppDelegate.m */; };
+		1D60589B0D05DD56006BFB54 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 29B97316FDCFA39411CA2CEA /* main.m */; };
+		1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */ = {isa = PBXBuildFile; fileRef = 28AD733E0D9D9553002E5188 /* MainWindow.xib */; };
+		F19B54E212FA084D00C9CF6B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 288765FC0DF74451002DB57D /* CoreGraphics.framework */; };
+		F19B54E312FA084D00C9CF6B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D30AB110D05D00D00671497 /* Foundation.framework */; };
+		F19B54E412FA084D00C9CF6B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1DF5F4DF0D08C38300B7A737 /* UIKit.framework */; };
+		F19B54E612FA091D00C9CF6B /* GHUnitIOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F19B54E512FA091D00C9CF6B /* GHUnitIOS.framework */; };
+		F19B54EC12FA0AEA00C9CF6B /* GHUnitIOSTestMain.m in Sources */ = {isa = PBXBuildFile; fileRef = F19B54EB12FA0AEA00C9CF6B /* GHUnitIOSTestMain.m */; };
+		F19B55DB12FA0CDC00C9CF6B /* ItShouldHaveSmoke.m in Sources */ = {isa = PBXBuildFile; fileRef = F19B55DA12FA0CDC00C9CF6B /* ItShouldHaveSmoke.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		F11EDDD212C292E00094BC63 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = /Library/Frameworks/SenTestingKit.framework; sourceTree = "<absolute>"; };
-		F11EDDEB12C2939B0094BC63 /* Main.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Main.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F11EDDEE12C2939B0094BC63 /* Main-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Main-Info.plist"; sourceTree = "<group>"; };
-		F11EDDF212C294350094BC63 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = ../happynumber/Classes/main.m; sourceTree = SOURCE_ROOT; };
-		F11EDDFB12C2946B0094BC63 /* Test.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Test.octest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F11EDDFC12C2946B0094BC63 /* Test-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Test-Info.plist"; sourceTree = "<group>"; };
-		F11EDE0112C2948C0094BC63 /* DummyTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DummyTest.h; path = ../happynumber/Tests/DummyTest.h; sourceTree = SOURCE_ROOT; };
-		F11EDE0212C2948C0094BC63 /* DummyTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DummyTest.m; path = ../happynumber/Tests/DummyTest.m; sourceTree = SOURCE_ROOT; };
+		1D30AB110D05D00D00671497 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		1D3623240D0F684500981E51 /* HappyNumberAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyNumberAppDelegate.h; sourceTree = "<group>"; };
+		1D3623250D0F684500981E51 /* HappyNumberAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HappyNumberAppDelegate.m; sourceTree = "<group>"; };
+		1D6058910D05DD3D006BFB54 /* HappyNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HappyNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1DF5F4DF0D08C38300B7A737 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		288765FC0DF74451002DB57D /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		28AD733E0D9D9553002E5188 /* MainWindow.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = MainWindow.xib; path = Resources/MainWindow.xib; sourceTree = "<group>"; };
+		29B97316FDCFA39411CA2CEA /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		32CA4F630368D1EE00C91783 /* HappyNumber_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HappyNumber_Prefix.pch; sourceTree = "<group>"; };
+		8D1107310486CEB800E47090 /* HappyNumber-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "HappyNumber-Info.plist"; plistStructureDefinitionIdentifier = "com.apple.xcode.plist.structure-definition.iphone.info-plist"; sourceTree = "<group>"; };
+		F19B54DC12FA07F900C9CF6B /* UnitTests.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UnitTests.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F19B54DE12FA07F900C9CF6B /* UnitTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UnitTests-Info.plist"; sourceTree = "<group>"; };
+		F19B54E512FA091D00C9CF6B /* GHUnitIOS.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GHUnitIOS.framework; path = Frameworks/GHUnitIOS.framework; sourceTree = "<group>"; };
+		F19B54EB12FA0AEA00C9CF6B /* GHUnitIOSTestMain.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = GHUnitIOSTestMain.m; path = Tests/GHUnitIOSTestMain.m; sourceTree = "<group>"; };
+		F19B55DA12FA0CDC00C9CF6B /* ItShouldHaveSmoke.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ItShouldHaveSmoke.m; path = Tests/ItShouldHaveSmoke.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		F11EDDE912C2939B0094BC63 /* Frameworks */ = {
+		1D60588F0D05DD3D006BFB54 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1D60589F0D05DD5A006BFB54 /* Foundation.framework in Frameworks */,
+				1DF5F4E00D08C38300B7A737 /* UIKit.framework in Frameworks */,
+				288765FD0DF74451002DB57D /* CoreGraphics.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F11EDDF812C2946B0094BC63 /* Frameworks */ = {
+		F19B54DA12FA07F900C9CF6B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11EDE0012C294740094BC63 /* SenTestingKit.framework in Frameworks */,
+				F19B54E212FA084D00C9CF6B /* CoreGraphics.framework in Frameworks */,
+				F19B54E312FA084D00C9CF6B /* Foundation.framework in Frameworks */,
+				F19B54E412FA084D00C9CF6B /* UIKit.framework in Frameworks */,
+				F19B54E612FA091D00C9CF6B /* GHUnitIOS.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		F1080DB512C2912A00CE99B8 = {
+		080E96DDFE201D6D7F000001 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				F11EDDAC12C2926D0094BC63 /* Classes */,
-				F11EDDAD12C292980094BC63 /* Tests */,
-				F11EDDD112C292BF0094BC63 /* Frameworks */,
-				F11EDDEC12C2939B0094BC63 /* Products */,
-				F11EDDEE12C2939B0094BC63 /* Main-Info.plist */,
-				F11EDDFC12C2946B0094BC63 /* Test-Info.plist */,
+				1D3623240D0F684500981E51 /* HappyNumberAppDelegate.h */,
+				1D3623250D0F684500981E51 /* HappyNumberAppDelegate.m */,
+				29B97316FDCFA39411CA2CEA /* main.m */,
 			);
+			path = Classes;
 			sourceTree = "<group>";
 		};
-		F11EDDAC12C2926D0094BC63 /* Classes */ = {
+		19C28FACFE9D520D11CA2CBB /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				F11EDDF212C294350094BC63 /* main.m */,
+				1D6058910D05DD3D006BFB54 /* HappyNumber.app */,
+				F19B54DC12FA07F900C9CF6B /* UnitTests.app */,
 			);
-			name = Classes;
+			name = Products;
 			sourceTree = "<group>";
 		};
-		F11EDDAD12C292980094BC63 /* Tests */ = {
+		29B97314FDCFA39411CA2CEA /* CustomTemplate */ = {
 			isa = PBXGroup;
 			children = (
-				F11EDE0112C2948C0094BC63 /* DummyTest.h */,
-				F11EDE0212C2948C0094BC63 /* DummyTest.m */,
+				080E96DDFE201D6D7F000001 /* Classes */,
+				F19B54EA12FA0A6600C9CF6B /* Tests */,
+				29B97315FDCFA39411CA2CEA /* Other Sources */,
+				29B97317FDCFA39411CA2CEA /* Resources */,
+				29B97323FDCFA39411CA2CEA /* Frameworks */,
+				19C28FACFE9D520D11CA2CBB /* Products */,
 			);
-			name = Tests;
+			name = CustomTemplate;
 			sourceTree = "<group>";
 		};
-		F11EDDD112C292BF0094BC63 /* Frameworks */ = {
+		29B97315FDCFA39411CA2CEA /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				F11EDDD212C292E00094BC63 /* SenTestingKit.framework */,
+				8D1107310486CEB800E47090 /* HappyNumber-Info.plist */,
+				32CA4F630368D1EE00C91783 /* HappyNumber_Prefix.pch */,
+				F19B54DE12FA07F900C9CF6B /* UnitTests-Info.plist */,
+			);
+			name = "Other Sources";
+			sourceTree = "<group>";
+		};
+		29B97317FDCFA39411CA2CEA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				28AD733E0D9D9553002E5188 /* MainWindow.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		29B97323FDCFA39411CA2CEA /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F19B54E512FA091D00C9CF6B /* GHUnitIOS.framework */,
+				1DF5F4DF0D08C38300B7A737 /* UIKit.framework */,
+				1D30AB110D05D00D00671497 /* Foundation.framework */,
+				288765FC0DF74451002DB57D /* CoreGraphics.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		F11EDDEC12C2939B0094BC63 /* Products */ = {
+		F19B54EA12FA0A6600C9CF6B /* Tests */ = {
 			isa = PBXGroup;
 			children = (
-				F11EDDEB12C2939B0094BC63 /* Main.app */,
-				F11EDDFB12C2946B0094BC63 /* Test.octest */,
+				F19B54EB12FA0AEA00C9CF6B /* GHUnitIOSTestMain.m */,
+				F19B55DA12FA0CDC00C9CF6B /* ItShouldHaveSmoke.m */,
 			);
-			name = Products;
+			name = Tests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		F11EDDEA12C2939B0094BC63 /* Main */ = {
+		1D6058900D05DD3D006BFB54 /* HappyNumber */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F11EDDF112C2939B0094BC63 /* Build configuration list for PBXNativeTarget "Main" */;
+			buildConfigurationList = 1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HappyNumber" */;
 			buildPhases = (
-				F11EDDE712C2939B0094BC63 /* Resources */,
-				F11EDDE812C2939B0094BC63 /* Sources */,
-				F11EDDE912C2939B0094BC63 /* Frameworks */,
+				1D60588D0D05DD3D006BFB54 /* Resources */,
+				1D60588E0D05DD3D006BFB54 /* Sources */,
+				1D60588F0D05DD3D006BFB54 /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Main;
-			productName = Main;
-			productReference = F11EDDEB12C2939B0094BC63 /* Main.app */;
+			name = HappyNumber;
+			productName = HappyNumber;
+			productReference = 1D6058910D05DD3D006BFB54 /* HappyNumber.app */;
 			productType = "com.apple.product-type.application";
 		};
-		F11EDDFA12C2946B0094BC63 /* Test */ = {
+		F19B54DB12FA07F900C9CF6B /* UnitTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = F11EDDFF12C2946B0094BC63 /* Build configuration list for PBXNativeTarget "Test" */;
+			buildConfigurationList = F19B54E112FA07FA00C9CF6B /* Build configuration list for PBXNativeTarget "UnitTests" */;
 			buildPhases = (
-				F11EDDF612C2946B0094BC63 /* Resources */,
-				F11EDDF712C2946B0094BC63 /* Sources */,
-				F11EDDF812C2946B0094BC63 /* Frameworks */,
-				F11EDDF912C2946B0094BC63 /* ShellScript */,
+				F19B54D812FA07F900C9CF6B /* Resources */,
+				F19B54D912FA07F900C9CF6B /* Sources */,
+				F19B54DA12FA07F900C9CF6B /* Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
-			name = Test;
-			productName = Test;
-			productReference = F11EDDFB12C2946B0094BC63 /* Test.octest */;
-			productType = "com.apple.product-type.bundle";
+			name = UnitTests;
+			productName = UnitTests;
+			productReference = F19B54DC12FA07F900C9CF6B /* UnitTests.app */;
+			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		F1080DB712C2912A00CE99B8 /* Project object */ = {
+		29B97313FDCFA39411CA2CEA /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = F1080DBA12C2912A00CE99B8 /* Build configuration list for PBXProject "HappyNumber" */;
-			compatibilityVersion = "Xcode 2.4";
+			buildConfigurationList = C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HappyNumber" */;
+			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
-			hasScannedForEncodings = 0;
+			hasScannedForEncodings = 1;
 			knownRegions = (
 				English,
 				Japanese,
 				French,
 				German,
 			);
-			mainGroup = F1080DB512C2912A00CE99B8;
-			productRefGroup = F11EDDEC12C2939B0094BC63 /* Products */;
+			mainGroup = 29B97314FDCFA39411CA2CEA /* CustomTemplate */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				F11EDDEA12C2939B0094BC63 /* Main */,
-				F11EDDFA12C2946B0094BC63 /* Test */,
+				1D6058900D05DD3D006BFB54 /* HappyNumber */,
+				F19B54DB12FA07F900C9CF6B /* UnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		F11EDDE712C2939B0094BC63 /* Resources */ = {
+		1D60588D0D05DD3D006BFB54 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28AD733F0D9D9553002E5188 /* MainWindow.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F11EDDF612C2946B0094BC63 /* Resources */ = {
+		F19B54D812FA07F900C9CF6B /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -169,154 +214,137 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		F11EDDF912C2946B0094BC63 /* ShellScript */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		F11EDDE812C2939B0094BC63 /* Sources */ = {
+		1D60588E0D05DD3D006BFB54 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11EDDF312C294350094BC63 /* main.m in Sources */,
+				1D60589B0D05DD56006BFB54 /* main.m in Sources */,
+				1D3623260D0F684500981E51 /* HappyNumberAppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F11EDDF712C2946B0094BC63 /* Sources */ = {
+		F19B54D912FA07F900C9CF6B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F11EDE0312C2948C0094BC63 /* DummyTest.m in Sources */,
+				F19B54EC12FA0AEA00C9CF6B /* GHUnitIOSTestMain.m in Sources */,
+				F19B55DB12FA0CDC00C9CF6B /* ItShouldHaveSmoke.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		F1080DB812C2912A00CE99B8 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = NO;
-			};
-			name = Debug;
-		};
-		F1080DB912C2912A00CE99B8 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				COPY_PHASE_STRIP = YES;
-			};
-			name = Release;
-		};
-		F11EDDEF12C2939B0094BC63 /* Debug */ = {
+		1D6058940D05DD3E006BFB54 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = NO;
 				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = YES;
-				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Main-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = Main;
+				GCC_PREFIX_HEADER = HappyNumber_Prefix.pch;
+				INFOPLIST_FILE = "HappyNumber-Info.plist";
+				PRODUCT_NAME = HappyNumber;
 			};
 			name = Debug;
 		};
-		F11EDDF012C2939B0094BC63 /* Release */ = {
+		1D6058950D05DD3E006BFB54 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/AppKit.framework/Headers/AppKit.h";
-				INFOPLIST_FILE = "Main-Info.plist";
-				INSTALL_PATH = "$(HOME)/Applications";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Foundation,
-					"-framework",
-					AppKit,
-				);
-				PREBINDING = NO;
-				PRODUCT_NAME = Main;
-				ZERO_LINK = NO;
+				GCC_PREFIX_HEADER = HappyNumber_Prefix.pch;
+				INFOPLIST_FILE = "HappyNumber-Info.plist";
+				PRODUCT_NAME = HappyNumber;
+				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		F11EDDFD12C2946B0094BC63 /* Debug */ = {
+		C01FCF4F08A954540054247B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = NO;
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_DYNAMIC_NO_PIC = NO;
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_MODEL_TUNING = G5;
-				GCC_OPTIMIZATION_LEVEL = 0;
-				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				INFOPLIST_FILE = "Test-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
-				OTHER_LDFLAGS = (
-					"-framework",
-					Cocoa,
-					"-framework",
-					SenTestingKit,
-				);
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
 				PREBINDING = NO;
-				PRODUCT_NAME = Test;
-				WRAPPER_EXTENSION = octest;
+				SDKROOT = iphoneos4.1;
 			};
 			name = Debug;
 		};
-		F11EDDFE12C2946B0094BC63 /* Release */ = {
+		C01FCF5008A954540054247B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_C_LANGUAGE_STANDARD = c99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				PREBINDING = NO;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Release;
+		};
+		F19B54DF12FA07FA00C9CF6B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
-				COPY_PHASE_STRIP = YES;
-				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
-				FRAMEWORK_SEARCH_PATHS = "$(DEVELOPER_LIBRARY_DIR)/Frameworks";
-				GCC_ENABLE_FIX_AND_CONTINUE = NO;
-				GCC_ENABLE_OBJC_EXCEPTIONS = YES;
-				GCC_MODEL_TUNING = G5;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/Cocoa.framework/Headers/Cocoa.h";
-				INFOPLIST_FILE = "Test-Info.plist";
-				INSTALL_PATH = "$(USER_LIBRARY_DIR)/Bundles";
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
 				OTHER_LDFLAGS = (
+					"-all_load",
+					"-ObjC",
 					"-framework",
-					Cocoa,
+					Foundation,
 					"-framework",
-					SenTestingKit,
+					UIKit,
 				);
 				PREBINDING = NO;
-				PRODUCT_NAME = Test;
-				WRAPPER_EXTENSION = octest;
+				PRODUCT_NAME = UnitTests;
+				SDKROOT = iphoneos4.1;
+			};
+			name = Debug;
+		};
+		F19B54E012FA07FA00C9CF6B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"\"$(SRCROOT)/Frameworks\"",
+				);
+				GCC_ENABLE_FIX_AND_CONTINUE = NO;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "$(SYSTEM_LIBRARY_DIR)/Frameworks/UIKit.framework/Headers/UIKit.h";
+				INFOPLIST_FILE = "UnitTests-Info.plist";
+				INSTALL_PATH = "$(HOME)/Applications";
+				OTHER_LDFLAGS = (
+					"-framework",
+					Foundation,
+					"-framework",
+					UIKit,
+				);
+				PREBINDING = NO;
+				PRODUCT_NAME = UnitTests;
+				SDKROOT = iphoneos4.1;
 				ZERO_LINK = NO;
 			};
 			name = Release;
@@ -324,34 +352,34 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		F1080DBA12C2912A00CE99B8 /* Build configuration list for PBXProject "HappyNumber" */ = {
+		1D6058960D05DD3E006BFB54 /* Build configuration list for PBXNativeTarget "HappyNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F1080DB812C2912A00CE99B8 /* Debug */,
-				F1080DB912C2912A00CE99B8 /* Release */,
+				1D6058940D05DD3E006BFB54 /* Debug */,
+				1D6058950D05DD3E006BFB54 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F11EDDF112C2939B0094BC63 /* Build configuration list for PBXNativeTarget "Main" */ = {
+		C01FCF4E08A954540054247B /* Build configuration list for PBXProject "HappyNumber" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F11EDDEF12C2939B0094BC63 /* Debug */,
-				F11EDDF012C2939B0094BC63 /* Release */,
+				C01FCF4F08A954540054247B /* Debug */,
+				C01FCF5008A954540054247B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		F11EDDFF12C2946B0094BC63 /* Build configuration list for PBXNativeTarget "Test" */ = {
+		F19B54E112FA07FA00C9CF6B /* Build configuration list for PBXNativeTarget "UnitTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				F11EDDFD12C2946B0094BC63 /* Debug */,
-				F11EDDFE12C2946B0094BC63 /* Release */,
+				F19B54DF12FA07FA00C9CF6B /* Debug */,
+				F19B54E012FA07FA00C9CF6B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = F1080DB712C2912A00CE99B8 /* Project object */;
+	rootObject = 29B97313FDCFA39411CA2CEA /* Project object */;
 }

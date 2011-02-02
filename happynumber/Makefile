@@ -8,10 +8,7 @@ compile: clean
 	@echo "Compiling..."
 	@xcodebuild build
 
+# TODO Launch GHUnit somehow
 test: compile
 	@echo "Testing..."
-	@xcodebuild -target Test
-
-run:
-	@echo "Running..."
-	@open build/Debug/Main.app/
+	@xcodebuild -target UnitTests
