@@ -16,11 +16,11 @@ in a cycle which does not include 1. Those numbers for which this process ends i
 those that do not end in 1 are unhappy numbers. (from Wikipedia)
 
 For example, 7 is happy, as the associated sequence is:
-7 2 = 49
-4 2 + 9 2 = 97
-9 2 + 7 2 = 130
-1 2 + 3 2 = 10
-1 2 = 1
+7^2 = 49
+4^2 + 9^2 = 97
+9^2 + 7^2 = 130
+1^2 + 3^2 = 10
+1^2 = 1
 
 Interface To solve this exercise, implement the following interface after you checked out the project template
 from below:

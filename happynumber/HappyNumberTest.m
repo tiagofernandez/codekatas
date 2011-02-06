@@ -19,7 +19,16 @@
 }
 
 -(void) testIsHappy {
-  GHAssertTrue([happyNumber isHappy: 1], nil);
+  [self assertHappy:7];
+  [self assertNotHappy:8];
+}
+
+-(void) assertHappy: (long) number {
+  GHAssertTrue([happyNumber isHappy:number], nil);
+}
+
+-(void) assertNotHappy: (long) number {
+  GHAssertFalse([happyNumber isHappy:number], nil);
 }
 
 @end
