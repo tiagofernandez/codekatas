@@ -2,7 +2,7 @@
 
 @implementation HappyNumber
 
--(Boolean) isHappy: (long) number {
+-(Boolean) isHappy:(long)number {
   NSString *digits = [self getDigits:number];
   long sum;
   do {
@@ -19,11 +19,11 @@
   return happy;
 }
 
--(NSString *) getDigits: (long) number  {
+-(NSString *) getDigits:(long)number {
   return [NSString stringWithFormat: @"%d", number];
 }
 
--(long) powTwo: (char) character {
+-(long) powTwo:(char)character {
   long digit = (long) (character - '0');
   return (long) pow(digit, 2);
 }

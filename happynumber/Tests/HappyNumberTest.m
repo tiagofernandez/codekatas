@@ -23,11 +23,11 @@
   [self assertNotHappy:8];
 }
 
--(void) assertHappy: (long) number {
+-(void) assertHappy:(long)number {
   GHAssertTrue([happyNumber isHappy:number], nil);
 }
 
--(void) assertNotHappy: (long) number {
+-(void) assertNotHappy:(long)number {
   GHAssertFalse([happyNumber isHappy:number], nil);
 }
 
