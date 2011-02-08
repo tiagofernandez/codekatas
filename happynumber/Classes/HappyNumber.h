@@ -2,10 +2,6 @@
 
 @interface HappyNumber : NSObject {}
 
--(Boolean) isHappy:(long)number;
-
--(NSString *) getDigits:(long)number;
-
--(long) powTwo:(char)character;
+-(BOOL) isHappy:(long)number;
 
 @end

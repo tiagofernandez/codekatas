@@ -5,6 +5,10 @@
 @interface HappyNumberTest : GHTestCase {
   HappyNumber *happyNumber;
 }
+
+-(void) assertHappy:(long)number;
+-(void) assertNotHappy:(long)number;
+
 @end
 
 @implementation HappyNumberTest

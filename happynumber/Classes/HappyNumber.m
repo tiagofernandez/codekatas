@@ -1,8 +1,16 @@
 #import "HappyNumber.h"
 
+@interface HappyNumber()
+
+-(NSString *) getDigits:(long)number;
+
+-(long) powTwo:(char)character;
+
+@end
+
 @implementation HappyNumber
 
--(Boolean) isHappy:(long)number {
+-(BOOL) isHappy:(long)number {
   NSString *digits = [self getDigits:number];
   long sum;
   do {
@@ -14,7 +22,7 @@
     digits = [self getDigits:sum];
   }
   while (sum >= 10);
-  Boolean happy = (sum == 1);
+  BOOL happy = (sum == 1);
   NSLog(@"Is %d happy? %@", number, happy ? @"yes" : @"no");
   return happy;
 }
